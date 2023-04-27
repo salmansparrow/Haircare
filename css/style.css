@@ -1,0 +1,230 @@
+body{
+    background-color: #f4f4f4;
+}
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+
+#nav-item {
+    padding: 5px 17px 5px 17px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.carousel-caption{
+    color: black;
+    position: absolute;
+    margin-right: 50%;
+    margin-bottom: 23%;
+}
+
+
+
+
+
+.store-image{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+ 
+   
+}
+.store-image:hover{
+    transition: transform .5s, filter 1.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.best-sell{
+    text-align: center;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    position: relative;
+    color: #292929;
+    font-weight: 500;
+    line-height: 1;
+    font-family: var(--heading-font);
+}
+.best-par{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    color: #929292;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 12px;
+}
+#best-sell{
+    margin-top: 10px;
+}
+
+
+
+
+
+ /* Style the tab */
+ .tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin: 0 5px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #2caf4e;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  } 
+
+  .pro {
+    align-items: center;
+    text-align: center;
+  }
+
+
+  /* Featured Product */
+
+
+
+
+  /* footer */
+
+
+  
+
+  .social-block h4 {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 600;
+    color: #292929;
+    margin: 0 0 20px 0;
+    text-transform: capitalize;
+  }
+
+
+  .social a {
+    position: relative;
+    margin-right: 5px;
+
+    display: inline-block;
+    vertical-align: top;
+    color: #aaaaaa;
+    background: #ebebeb;
+ 
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+
+  }
+
+  .social a:hover{
+    background-color: black;
+  }
+
+
+  ul.list-unstyled>li {
+    margin-bottom: 24px;
+    font-size: 12px;}
+ 
+ul.footer-time li.last {
+    margin-top: 63px !important;
+  
+}
+
+footer ul.flex-column li:hover {
+  color: #2caf4e;
+  margin-left: 7px;
+}
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display:"flex";
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: 1px solid black;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  background-color: #2caf4e;
+}
+
+
+
+
+
+
+
+
